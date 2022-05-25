@@ -1,7 +1,14 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+// стили
+@import './default-styles/default-styles.scss';
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+// дерево
+@import './components/hero-header';
+@import './components/products';
+@import './components/about';
+@import './components/advantages';
+@import './components/gallery';
+@import './components/customer-reviews';
+@import './components/contacts';
+@import './components/footer';
+// reset
+@import './reset/reset';
