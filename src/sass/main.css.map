@@ -1,1 +1,20 @@
-
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,IAAI;CAClB;;ACHD,AAAA,KAAK,CAAC;EACJ,kBAAkB,CAAA,QAAC;EACnB,kBAAkB,CAAA,QAAC;EACnB,iBAAiB,CAAA,QAAC;EAClB,uBAAuB,CAAA,QAAC;EAExB,gBAAgB,CAAA,QAAC;EAEjB,UAAU,CAAA,KAAC;CACZ;;ASTD,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;CACZ;;AAED,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,CAAC;AACD,IAAI;AACJ,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,YAAY,EAAE,CAAC;EACf,eAAe,EAAE,IAAI;EACrB,eAAe,EAAE,IAAI;CACxB;;AAED,AAAA,GAAG,CAAC;EACA,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;CACd;;AAED,AAAA,CAAC;AACD,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,QAAQ,CAAC;EACN,UAAU,EAAE,OAAO;CACtB;;AAED,AAAA,gBAAgB,CAAC;EACb,QAAQ,EAAE,QAAQ;EAClB,WAAW,EAAE,MAAM;EACnB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,QAAQ,EAAE,MAAM;EAChB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,IAAI,EAAE,aAAa;EACnB,SAAS,EAAE,UAAU;EACrB,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "main.scss",
+        "default-styles/_default-styles.scss",
+        "default-styles/_root.scss",
+        "components/_hero-header.scss",
+        "components/_products.scss",
+        "components/_about.scss",
+        "components/_advantages.scss",
+        "components/_gallery.scss",
+        "components/_customer-reviews.scss",
+        "components/_contacts.scss",
+        "components/_footer.scss",
+        "reset/_reset.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
