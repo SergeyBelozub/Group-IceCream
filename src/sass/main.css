@@ -1,7 +1,8 @@
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 16px;
 }
+
 
 :root {
   --main-color-white: #ffffff;
@@ -12,12 +13,6 @@ body {
   --main-gap: 32px;
 }
 
-.advantages__list {
-  width: 230 px;
-  height: 157px;
-  background-color: aqua;
-  border-radius: 1px solid tomato;
-}
 
 html {
   -webkit-box-sizing: border-box;
@@ -67,7 +62,5 @@ img {
   padding: 0;
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   margin: -1px;
-}
-/*# sourceMappingURL=main.css.map */
