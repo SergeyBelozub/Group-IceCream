@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заголовок страницы</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Titan+One&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./sass/main.scss" />
+    </head>
+</head>
+<body>
+    <section class="container section-hero">
+        <h1 class="section-hero__name-company">Ice cream made with passion</h1>
+        <ul>
+            <li class="section-hero__button">
+                <button type="button" class="section-hero__button-choose" href="#products">Products</button>
+            </li>
+            <li class="section-hero__button">
+                <button type="button" class="section-hero__button-about" href="#about">How it's made?</button>
+            </li>
+        </ul>
+        <div class="section-hero__pitcher-of-milk">
+            <p class="section-hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+            <button class="section-hero__button-direction">
+                <svg class="section-hero__button-icon">
+                    <use href="./images/section-hero/arrow-right.svg"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="section-hero__ellipse"></div>
+        <ul section-hero__product-list>
+            <li class="section-hero"><span>16</span> cafes</li>
+            <li class="section-hero"><span>23</span> food trucks</li>
+        </ul>
+    </section>
+</body>
+</html>
