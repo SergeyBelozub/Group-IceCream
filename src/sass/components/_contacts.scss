@@ -1,0 +1,110 @@
+.contacts {
+  background: #fff5f6;
+  padding-bottom: 48px;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 40px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 120px;
+  }
+}
+.contacts__cards-list {
+  margin-bottom: 32px;
+}
+.contacts__card {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  padding: 40px 69px 40px 32px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+}
+.contacts__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.83;
+  letter-spacing: 0.04em;
+}
+.contacts__name {
+  display: inline-block;
+  padding: 2px 24px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #f0d1a5;
+
+  .contacts__card:nth-child(even) & {
+    background-color: #c2e297;
+  }
+}
+.contacts__about {
+  padding-bottom: 24px;
+}
+.text--locality {
+  margin-bottom: 8px;
+  color: #000000;
+}
+.text--info {
+  line-height: 1.5;
+  color: #907e82;
+}
+
+.contacts__time-list {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.contacts__time-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.contacts__time-item--day {
+  color: #000000;
+}
+.contacts__time-item--hour {
+  color: #ffa5ba;
+}
+.contacts__communication-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.contacts__communication-list {
+  padding-top: 24px;
+}
+.communication-link {
+  color: #907e82;
+}
+.btn-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 11px 17px 11px 21px;
+
+  border: 0;
+  border-radius: 22px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #ffffff;
+  background-color: #d41342;
+
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+.btn-filter--franchise {
+  color: #d41443;
+  background-color: #ffffff;
+  &:focus,
+  &:hover {
+    background: #ecebeb;
+  }
+}
